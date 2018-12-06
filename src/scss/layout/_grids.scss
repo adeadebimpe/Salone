@@ -1,0 +1,50 @@
+.row{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.col-7{
+    flex-basis: 100%;
+    
+    @media only screen and (min-width: 768px){
+        flex-basis: 49%;
+    }
+    @media only screen and (min-width: 1200px){
+        flex-basis: 65%;
+    }
+
+}
+.col-5{
+    flex-basis: 100%;
+    @media only screen and (min-width: 768px){
+        flex-basis:49%;
+    }
+    @media only screen and (min-width: 1200px){
+        flex-basis: 35%;
+    }
+}
+.col-6{
+    flex-basis: 100%;
+    @media only screen and (min-width: 768px){
+        flex-basis:49%;
+    }
+}
+.col-4{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    @media only screen and (min-width: 768px){
+        flex-basis: 32%;
+    }
+}
+.col-3{
+    flex-basis: 100%;
+    margin-bottom: 30px;
+    @media only screen and (min-width: 768px){
+        flex-basis: 49%;
+        
+    }
+    @media only screen and (min-width: 1200px){
+        flex-basis: 24%;
+    }
+}
